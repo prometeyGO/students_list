@@ -1,0 +1,132 @@
+body {
+  background-color: #25274D;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: 10px;
+  color: white;
+}
+
+p {
+  margin: 0;
+}
+
+input {
+  padding: 5px;
+  width: 200px;
+  height: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 50px 15px;
+  margin: 0 auto;
+}
+
+.form {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 10px;
+  width: 400px;
+  background-color: #AAABB8;
+  border-radius: 10px;
+}
+
+.form__title {
+  margin: 0;
+  padding-bottom: 15px;
+  font-size: 30px;
+}
+
+.form__wrap {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.input__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form__text {
+  font-size: 18px;
+}
+
+.form__label {
+  display: none;
+  margin-bottom: 5px;
+  max-width: 210px;
+  font-size: 14px;
+  color: crimson;
+}
+
+.form__label.error {
+  display: block;
+}
+
+.form__btn {
+  margin: 0 auto;
+  padding: 5px 20px;
+  display: block;
+  cursor: pointer;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2E9CCA;
+  color: white;
+}
+
+.form__btn:active {
+  -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.search {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 1000px;
+}
+
+.table {
+  margin: 0 auto;
+  width: 1000px;
+  border-collapse: collapse;
+}
+
+.table__head {
+  background-color: #2E9CCA;
+}
+
+.table__body {
+  background-color: #AAABB8;
+}
+
+.table__th {
+  border: 1px solid black;
+  font-size: 18px;
+}
+
+.table__click {
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}

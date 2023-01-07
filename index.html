@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script defer src="./main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+          <h1 class="form__title">Добавить студента:</h1>
+            <div class="form__wrap">
+                <p class="form__text">Введите имя:</p>
+                <div class="input__wrap">
+                    <label class="form__label" for="name" id="name-error"></label>
+                    <input class="name" type="text" name="name" placeholder="Имя">
+                </div>
+            </div>
+
+            <div class="form__wrap">
+                <p class="form__text">Введите фамилию:</p>
+                <div class="input__wrap">
+                    <label class="form__label" for="surname" id="surname-error">Введите корректное значение</label>
+                    <input class="surname" type="text" name="surname" placeholder="Фамилия">
+                </div>
+            </div>
+
+            <div class="form__wrap">
+                <p class="form__text">Введите отчество:</p>
+                <div class="input__wrap">
+                    <label class="form__label" for="middleName" id="middleName-error">Введите корректное значение</label>
+                    <input class="middleName" type="text" name="middleName" placeholder="Отчество">
+                </div>
+            </div>
+
+            <div class="form__wrap">
+                <p class="form__text">Дата рождения:</p>
+                <div class="input__wrap">
+                    <label class="form__label" for="dateOfBirth" id="dateOfBirth-error">Введите корректное значение</label>
+                    <input class="dateOfBirth" type="date" name="dateOfBirth" placeholder="Дата рождения" min="1900-01-01">
+                </div>
+            </div>
+
+            <div class="form__wrap">
+                <p class="form__text">Год начала обучения:</p>
+                <div class="input__wrap">
+                    <label class="form__label" for="startStudy" id="startStudy-error">Введите корректное значение</label>
+                    <input class="startStudy" type="number" name="startStudy" placeholder="Год начала обучения" min="2000">
+                </div>
+            </div>
+
+            <div class="form__wrap">
+                <p class="form__text">Факультет:</p>
+                <div class="input__wrap">
+                    <label class="form__label" for="faculty" id="faculty-error">Введите корректное значение</label>
+                    <input class="faculty" type="text" name="faculty" placeholder="Факультет">
+                </div>
+            </div>
+
+            <button class="form__btn" id="btn">Добавить студента</button>
+        </div>
+
+        <div class="search">
+          <h2>Фильры поиска</h2>
+          <input class="search__name" type="text" name="name" placeholder="Имя">
+          <input class="search__age" type="date" name="dateOfBirth" placeholder="Дата рождения" min="2000-12-31">
+          <input class="search__startStudy" type="number" name="startStudy" placeholder="Год начала обучения" min="2000">
+          <input class="search__faculty" type="text" name="faculty" placeholder="Факультет">
+        </div>
+
+        <div class="tableWrap" id="tableWrap"></div>
+    </div>
+</body>
+</html>
